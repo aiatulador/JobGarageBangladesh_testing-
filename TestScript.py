@@ -90,8 +90,8 @@ try:
     driver.find_element(By.XPATH, '//*[@id="id_first_name"]').send_keys("Vinicius")
     driver.find_element(By.XPATH, '//*[@id="id_last_name"]').send_keys("Junior")
     driver.find_element(By.XPATH, '//*[@id="id_email"]').send_keys("18201019@uap-bd.edu")
-    driver.find_element(By.XPATH, '//*[@id="id_password1"]').send_keys("asdf74855")
-    driver.find_element(By.XPATH, '//*[@id="id_password2"]').send_keys("asdf74855")
+    driver.find_element(By.XPATH, '//*[@id="id_password1"]').send_keys("asdf7485")
+    driver.find_element(By.XPATH, '//*[@id="id_password2"]').send_keys("asdf7485")
     driver.find_element(By.XPATH, '/html/body/div/div/form/button').click()
 
 
